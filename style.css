@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EAF6FF;
+}
+
+.slider-container {
+    width: 600px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-quote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.testimonial-position {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #4A90E2;
+    transition: color 0.3s ease;
+}
+
+.nav-button:hover {
+    color: #2C7BD0;
+}
+
+.pagination-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.pagination-dot.active {
+    background-color: #4A90E2;
+}
